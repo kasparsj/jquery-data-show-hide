@@ -1,0 +1,40 @@
+{
+  "name": "jquery-show-hide-toggle",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kasparsj/jquery-show-hide-toggle",
+  "authors": [
+    "Kaspars <kasparsj@gmail.com>"
+  ],
+  "description": "A tiny jQuery plugin to show or hide or toggle some content, when changing a checkbox/radio or select field.",
+  "main": "jquery.show-hide-toggle.js",
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": [
+    "show",
+    "hide",
+    "toggle",
+    "jquery",
+    "checkbox",
+    "radio",
+    "select"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "591c2652a9a2a5766fb7576b569348e6883162f8"
+  },
+  "_source": "git://github.com/kasparsj/jquery-data-show-hide.git",
+  "_target": "~0.1.0",
+  "_originalSource": "jquery-data-show-hide",
+  "_direct": true
+}

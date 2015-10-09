@@ -7,6 +7,9 @@
   ],
   "description": "A tiny jQuery plugin to show or hide or toggle some content, when changing a checkbox/radio or select field.",
   "main": "jquery.show-hide-toggle.js",
+  "dependencies": {
+    "jquery": "*"
+  },
   "keywords": [
     "show",
     "hide",

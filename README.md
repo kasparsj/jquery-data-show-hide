@@ -18,19 +18,19 @@ bower install jquery-show-hide-toggle
 
 ```html
 <!-- Shows hidden-content div, when checked -->
-<input type="checkbox" data-show="#hidden-content" />
+<label><input type="checkbox" data-hide="#content" /> Hide</label>
 
 <!-- Hides hidden-content div, when checked -->
-<input type="radio" data-hide="#hidden-content" />
+<label><input type="radio" data-show="#content" /> Show</label>
 
 <!-- All three actions on a select element -->
 <select>
-    <option data-show="#hidden-content">Show</option>
-    <option data-hide="#hidden-content">Hide</option>
-    <option data-toggle="#hidden-content">Toggle</option>
+    <option data-hide="#content">Hide</option>
+    <option data-show="#content">Show</option>
+    <option data-toggle="#content">Toggle</option>
 </select>
 
-<div style="display:none" id="hidden-content">
-    Hidden content
+<div id="content">
+    Content
 </div>
 ```

@@ -40,3 +40,7 @@ bower install jquery-data-show-hide
     Test Content
 </div>
 ```
+
+## Demo
+
+http://kasparsj.github.io/jquery-data-show-hide

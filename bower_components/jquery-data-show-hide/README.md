@@ -18,18 +18,19 @@ bower install jquery-data-show-hide
 
 ```html
 <div>
-    <label><input type="checkbox" data-show="#test-content" /> Show</label>
-    <label><input type="checkbox" data-hide="#test-content" /> Hide</label>
-    <label><input type="checkbox" data-toggle="#test-content" /> Toggle</label>
+    <label><input type="checkbox" name="checkbox[]" data-show="#test-content" /> Show</label>
+    <label><input type="checkbox" name="checkbox[]" data-hide="#test-content" /> Hide</label>
+    <label><input type="checkbox" name="checkbox[]" data-toggle="#test-content" /> Toggle</label>
 </div>
 
 <div>
-    <label><input type="radio" data-show="#test-content" /> Show</label>
-    <label><input type="radio" data-hide="#test-content" /> Hide</label>
-    <label><input type="radio" data-toggle="#test-content" /> Toggle</label>
+    <label><input type="radio" name="radio[]" data-show="#test-content" /> Show</label>
+    <label><input type="radio" name="radio[]" data-hide="#test-content" /> Hide</label>
+    <label><input type="radio" name="radio[]" data-toggle="#test-content" /> Toggle</label>
 </div>
 
 <select>
+    <option></option>
     <option data-hide="#test-content">Hide</option>
     <option data-show="#test-content">Show</option>
     <option data-toggle="#test-content">Toggle</option>

@@ -31,7 +31,7 @@
   "_resolution": {
     "type": "version",
     "tag": "0.1.0",
-    "commit": "f69e5689e93e396cdeb7b425cac2dc6816325123"
+    "commit": "d9dc29668132c8438e55e4ccd0d0588b67c83707"
   },
   "_source": "git://github.com/kasparsj/jquery-data-show-hide.git",
   "_target": "~0.1.0",

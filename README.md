@@ -4,14 +4,14 @@ A tiny jQuery plugin to show or hide or toggle some content, when changing a che
 ## Availability
 
 ```bash
-bower install jquery-show-hide-toggle
+bower install jquery-data-show-hide
 ```
 
 ## Installation
 
 ```html
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/jquery-show-hide-toggle/jquery.show-hide-toggle.min.js"></script>
+<script src="bower_components/jquery-data-show-hide/jquery.data-show-hide.min.js"></script>
 ```
 
 ## Usage

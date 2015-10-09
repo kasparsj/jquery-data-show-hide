@@ -34,6 +34,24 @@
 <p>A tiny jQuery plugin to show or hide or toggle some content, when changing a checkbox/radio or select field.</p>
 
 <h2>
+  Demo
+</h2>
+
+<label><input type="checkbox" data-hide="#content" /> Hide</label>
+
+<label><input type="radio" data-show="#content" /> Show</label>
+
+<select>
+    <option data-hide="#content">Hide</option>
+    <option data-show="#content">Show</option>
+    <option data-toggle="#content">Toggle</option>
+</select>
+
+<div id="content">
+    Test Content
+</div>
+
+<h2>
 <a id="availability" class="anchor" href="#availability" aria-hidden="true"><span class="octicon octicon-link"></span></a>Availability</h2>
 
 <div class="highlight highlight-source-shell"><pre>bower install jquery-show-hide-toggle</pre></div>

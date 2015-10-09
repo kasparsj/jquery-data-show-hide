@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>jquery-data-show-hide by kasparsj</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>jquery-data-show-hide</h1>
+        <p>Show or hide or toggle some content, when changing a checkbox/radio or select field.</p>
+
+        <p class="view"><a href="https://github.com/kasparsj/jquery-data-show-hide">View the Project on GitHub <small>kasparsj/jquery-data-show-hide</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/kasparsj/jquery-data-show-hide/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/kasparsj/jquery-data-show-hide/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/kasparsj/jquery-data-show-hide">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="data-show-data-hide-data-toggle" class="anchor" href="#data-show-data-hide-data-toggle" aria-hidden="true"><span class="octicon octicon-link"></span></a>[data-show], [data-hide], [data-toggle]</h1>
+
+<p>A tiny jQuery plugin to show or hide or toggle some content, when changing a checkbox/radio or select field.</p>
+
+<h2>
+<a id="availability" class="anchor" href="#availability" aria-hidden="true"><span class="octicon octicon-link"></span></a>Availability</h2>
+
+<div class="highlight highlight-source-shell"><pre>bower install jquery-show-hide-toggle</pre></div>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>bower_components/jquery/dist/jquery.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;
+&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>bower_components/jquery-show-hide-toggle/jquery.show-hide-toggle.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre></div>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-text-html-basic"><pre><span class="pl-c">&lt;!-- Shows hidden-content div, when checked --&gt;</span>
+&lt;<span class="pl-ent">label</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>checkbox<span class="pl-pds">"</span></span> <span class="pl-e">data-hide</span>=<span class="pl-s"><span class="pl-pds">"</span>#content<span class="pl-pds">"</span></span> /&gt; Hide&lt;/<span class="pl-ent">label</span>&gt;
+
+<span class="pl-c">&lt;!-- Hides hidden-content div, when checked --&gt;</span>
+&lt;<span class="pl-ent">label</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>radio<span class="pl-pds">"</span></span> <span class="pl-e">data-show</span>=<span class="pl-s"><span class="pl-pds">"</span>#content<span class="pl-pds">"</span></span> /&gt; Show&lt;/<span class="pl-ent">label</span>&gt;
+
+<span class="pl-c">&lt;!-- All three actions on a select element --&gt;</span>
+&lt;<span class="pl-ent">select</span>&gt;
+    &lt;<span class="pl-ent">option</span> <span class="pl-e">data-hide</span>=<span class="pl-s"><span class="pl-pds">"</span>#content<span class="pl-pds">"</span></span>&gt;Hide&lt;/<span class="pl-ent">option</span>&gt;
+    &lt;<span class="pl-ent">option</span> <span class="pl-e">data-show</span>=<span class="pl-s"><span class="pl-pds">"</span>#content<span class="pl-pds">"</span></span>&gt;Show&lt;/<span class="pl-ent">option</span>&gt;
+    &lt;<span class="pl-ent">option</span> <span class="pl-e">data-toggle</span>=<span class="pl-s"><span class="pl-pds">"</span>#content<span class="pl-pds">"</span></span>&gt;Toggle&lt;/<span class="pl-ent">option</span>&gt;
+&lt;/<span class="pl-ent">select</span>&gt;
+
+&lt;<span class="pl-ent">div</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>content<span class="pl-pds">"</span></span>&gt;
+    Content
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/kasparsj">kasparsj</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>

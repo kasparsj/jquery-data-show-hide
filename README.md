@@ -1,4 +1,4 @@
-# jquery-show-hide-toggle
+# [data-show], [data-hide], [data-toggle]
 A tiny jQuery plugin to show or hide or toggle some content, when changing a checkbox/radio or select field.
 
 ## Availability

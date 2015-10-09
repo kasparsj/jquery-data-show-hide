@@ -1,36 +1,41 @@
-# jquery-show-hide-toggle
+# [data-show], [data-hide], [data-toggle]
 A tiny jQuery plugin to show or hide or toggle some content, when changing a checkbox/radio or select field.
 
 ## Availability
 
 ```bash
-bower install jquery-show-hide-toggle
+bower install jquery-data-show-hide
 ```
 
 ## Installation
 
 ```html
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/jquery-show-hide-toggle/jquery.show-hide-toggle.min.js"></script>
+<script src="bower_components/jquery-data-show-hide/jquery.data-show-hide.min.js"></script>
 ```
 
 ## Usage
 
 ```html
-<!-- Shows hidden-content div, when checked -->
-<input type="checkbox" data-show="#hidden-content" />
+<div>
+    <label><input type="checkbox" data-show="#test-content" /> Show</label>
+    <label><input type="checkbox" data-hide="#test-content" /> Hide</label>
+    <label><input type="checkbox" data-toggle="#test-content" /> Toggle</label>
+</div>
 
-<!-- Hides hidden-content div, when checked -->
-<input type="radio" data-hide="#hidden-content" />
+<div>
+    <label><input type="radio" data-show="#test-content" /> Show</label>
+    <label><input type="radio" data-hide="#test-content" /> Hide</label>
+    <label><input type="radio" data-toggle="#test-content" /> Toggle</label>
+</div>
 
-<!-- All three actions on a select element -->
 <select>
-    <option data-show="#hidden-content">Show</option>
-    <option data-hide="#hidden-content">Hide</option>
-    <option data-toggle="#hidden-content">Toggle</option>
+    <option data-hide="#test-content">Hide</option>
+    <option data-show="#test-content">Show</option>
+    <option data-toggle="#test-content">Toggle</option>
 </select>
 
-<div style="display:none" id="hidden-content">
-    Hidden content
+<div id="test-content" style="background:#d9534f">
+    Test Content
 </div>
 ```

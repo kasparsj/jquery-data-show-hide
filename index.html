@@ -34,20 +34,27 @@
 <p>A tiny jQuery plugin to show or hide or toggle some content, when changing a checkbox/radio or select field.</p>
 
 <h2>
-  Demo
-</h2>
+  <a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h2>
+  
+<div>
+    <label><input type="checkbox" data-show="#test-content" /> Show</label>
+    <label><input type="checkbox" data-hide="#test-content" /> Hide</label>
+    <label><input type="checkbox" data-toggle="#test-content" /> Toggle</label>
+</div>
 
-<label><input type="checkbox" data-hide="#content" /> Hide</label>
-
-<label><input type="radio" data-show="#content" /> Show</label>
+<div>
+    <label><input type="radio" data-show="#test-content" /> Show</label>
+    <label><input type="radio" data-hide="#test-content" /> Hide</label>
+    <label><input type="radio" data-toggle="#test-content" /> Toggle</label>
+</div>
 
 <select>
-    <option data-hide="#content">Hide</option>
-    <option data-show="#content">Show</option>
-    <option data-toggle="#content">Toggle</option>
+    <option data-hide="#test-content">Hide</option>
+    <option data-show="#test-content">Show</option>
+    <option data-toggle="#test-content">Toggle</option>
 </select>
 
-<div id="content">
+<div id="test-content" style="background:#d9534f">
     Test Content
 </div>
 
